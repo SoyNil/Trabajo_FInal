@@ -1,0 +1,7 @@
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.csproj.AssemblyReference.cache
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.csproj.SuggestedBindingRedirects.cache
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.Form1.resources
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.Properties.Resources.resources
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.UsuarioCorrecto.resources
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.csproj.GenerateResource.cache
+D:\Nilton\Inicio_Sesion\obj\Release\Inicio_Sesion.csproj.CoreCompileInputs.cache
