@@ -20,7 +20,6 @@ namespace Inicio_Sesion
             InitializeComponent();
             idUsuario = IDUsuario;
 
-            // Llamar a un método para cargar y mostrar los datos del usuario
             CargarDatosUsuario();
             
             Hola.Text = Hola.Text +"Hola, "+IDUsuario+"!";
@@ -39,7 +38,6 @@ namespace Inicio_Sesion
 
                 if (dr.Read())
                 {
-                    // Mostrar los datos en las etiquetas correspondientes
                     usuario.Text = "Usuario: "+dr["IDUsuario"].ToString();
                     nombre.Text = "Nombre: " +dr["NOMB"].ToString();
                     apellido.Text = "Apellido: "+dr["APELL"].ToString();
@@ -97,7 +95,7 @@ namespace Inicio_Sesion
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void rango_Click(object sender, EventArgs e)
@@ -108,19 +106,22 @@ namespace Inicio_Sesion
         private void button1_Click(object sender, EventArgs e)
         {
             DataTable usuariosRango3 = ObtenerUsuariosRango3();
-
-            // Crear una instancia de la ventana "VisualizarAlumno" y pasar la DataTable como parámetro
             VisualizarAlumnos visualizarAlumno = new VisualizarAlumnos(usuariosRango3);
             visualizarAlumno.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DataTable usuariosRango2 = ObtenerUsuariosRango3();
-
-            // Crear una instancia de la ventana "VisualizarAlumno" y pasar la DataTable como parámetro
+            DataTable usuariosRango2 = ObtenerUsuariosRango2();
             VisualizarProfesor profesor = new VisualizarProfesor(usuariosRango2);
             profesor.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DataTable usuariosRango3 = ObtenerUsuariosRango3();
+            ModificarAlumno modialumn = new ModificarAlumno(usuariosRango3);
+            modialumn.Show();
         }
     }
 }

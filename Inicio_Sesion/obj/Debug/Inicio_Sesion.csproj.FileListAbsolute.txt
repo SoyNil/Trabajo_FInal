@@ -33,3 +33,5 @@ C:\Users\USER\Downloads\Login-main\Inicio_Sesion\obj\Debug\Inicio_Sesion.pdb
 C:\Users\USER\Downloads\Login-main\Inicio_Sesion\obj\Debug\Inicio_Sesion.Director.resources
 C:\Users\USER\Downloads\Login-main\Inicio_Sesion\obj\Debug\Inicio_Sesion.VisualizarAlumnos.resources
 C:\Users\USER\Downloads\Login-main\Inicio_Sesion\obj\Debug\Inicio_Sesion.VisualizarProfesor.resources
+C:\Users\USER\Downloads\Login-main\Inicio_Sesion\obj\Debug\Inicio_Sesion.ModificarAlumno.resources
+C:\Users\USER\Downloads\Login-main\Inicio_Sesion\obj\Debug\Inicio_Sesion.Modificar.resources

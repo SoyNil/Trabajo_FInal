@@ -1,6 +1,6 @@
 ﻿namespace Inicio_Sesion
 {
-    partial class VisualizarProfesor
+    partial class ModificarAlumno
     {
         /// <summary>
         /// Required designer variable.
@@ -35,19 +35,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, -2);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 13);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(350, 98);
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
             this.dataGridView1.TabIndex = 0;
             // 
-            // VisualizarProfesor
+            // ModificarAlumno
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 94);
+            this.ClientSize = new System.Drawing.Size(480, 261);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "VisualizarProfesor";
-            this.Text = "VisualizarProfesor";
+            this.Name = "ModificarAlumno";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -55,6 +52,9 @@
 
         #endregion
 
+        private System.Windows.Forms.DataGridView dataGridViewModificar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

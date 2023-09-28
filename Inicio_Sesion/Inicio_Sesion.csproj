@@ -81,6 +81,18 @@
       <DependentUpon>Alumno.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexión.cs" />
+    <Compile Include="Director\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Director\Modificar.Designer.cs">
+      <DependentUpon>Modificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Director\ModificarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Director\ModificarAlumno.Designer.cs">
+      <DependentUpon>ModificarAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Director\VisualizarProfesor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +131,12 @@
     <Compile Include="Director\Director.Designer.cs">
       <DependentUpon>Director.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Director\Modificar.resx">
+      <DependentUpon>Modificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Director\ModificarAlumno.resx">
+      <DependentUpon>ModificarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Director\VisualizarProfesor.resx">
       <DependentUpon>VisualizarProfesor.cs</DependentUpon>
     </EmbeddedResource>

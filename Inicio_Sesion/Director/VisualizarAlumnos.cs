@@ -15,8 +15,6 @@ namespace Inicio_Sesion
         public VisualizarAlumnos(DataTable dataTable)
         {
             InitializeComponent();
-
-            // Establecer la fuente de datos del DataGridView en la DataTable
             dataGridView1.DataSource = dataTable;
         }
     }

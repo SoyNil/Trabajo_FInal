@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Inicio_Sesion.exe" size="24552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Inicio_Sesion.exe" size="27624">
       <assemblyIdentity name="Inicio_Sesion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Eh9maXgtxtq1kXmOzMk9UsV6FVyWHwWRPDoXVuNZ92Q=</dsig:DigestValue>
+        <dsig:DigestValue>tofnQkrBJrYYSq6eF5Npz4G5/sMxTgJIdHcX9bHhpWE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
